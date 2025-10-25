@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Basics Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>JavaScript Basics</h1>
+
+  <section>
+    <h2>DOM Manipulation</h2>
+
+    <h3> Изменения контента</h3>
+    <p id="text">Оригинальный текст абзаца</p>
+    <button id="changeTextBtn">Изменить текст</button>
+
+    <h3>Изменения стиля</h3>
+    <div id="box">Это бокс</div>
+    <button id="bgBtn">Изменить фон</button>
+    <button id="fontBtn">Изменить размер шрифта</button>
+
+    <h3>Создание и удаление элементов</h3>
+    <ul id="list"></ul>
+    <button id="addItem">Добавить</button>
+    <button id="removeItem">Удалить</button>
+  </section>
+
+  <section>
+    <h2>Events</h2>
+
+    <h3>Действие с мышкой</h3>
+    <div id="hoverBox">Наведи на меня</div>
+
+    <h3>Действие с клавиатуры</h3>
+    <input id="textInput" type="text" placeholder="Напиши что нибудь">
+    <p id="displayText"></p>
+
+    <h3>Форма валидации</h3>
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Имя"><br>
+      <input type="email" id="email" placeholder="Почта"><br>
+      <input type="password" id="password" placeholder="Пароль"><br>
+      <button type="submit">Отправить</button>
+      <p id="errorMessage" class="error"></p>
+    </form>
+  </section>
+
+  <section>
+    <h2>To-Do List</h2>
+
+    <input id="taskInput" type="text" placeholder="Напиши задачу">
+    <button id="addTask">Добавить задачу</button>
+
+    <ul id="taskList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

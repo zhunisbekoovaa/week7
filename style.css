@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+  color: #060329;
+}
+
+section {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#box {
+  width: 200px;
+  height: 100px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background 0.3s;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  background-color: #4a90e2; 
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
